@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889C01C81E63B8A00009997A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01C71E63B8A00009997A /* main.m */; };
+		889C01CB1E63B8A00009997A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01CA1E63B8A00009997A /* AppDelegate.m */; };
+		889C01CE1E63B8A00009997A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01CD1E63B8A00009997A /* ViewController.m */; };
+		889C01D31E63B8A00009997A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889C01D21E63B8A00009997A /* Assets.xcassets */; };
+		889C01D61E63B8A00009997A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889C01D41E63B8A00009997A /* LaunchScreen.storyboard */; };
+		889C01E11E63B8A00009997A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01E01E63B8A00009997A /* ____Tests.m */; };
+		889C01EC1E63B8A10009997A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01EB1E63B8A10009997A /* ____UITests.m */; };
+		889C01FE1E63C4C30009997A /* ZNoDateTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C01FD1E63C4C30009997A /* ZNoDateTip.m */; };
+		889C02001E63D4070009997A /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = 889C01FF1E63D4070009997A /* off.png */; };
+		D4A454430B74D92DA96F7772 /* libPods-断网提示.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5897FFC5BF745E0368ECEE /* libPods-断网提示.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889C01DD1E63B8A00009997A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889C01BB1E63B8A00009997A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889C01C21E63B8A00009997A;
+			remoteInfo = "断网提示";
+		};
+		889C01E81E63B8A10009997A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889C01BB1E63B8A00009997A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889C01C21E63B8A00009997A;
+			remoteInfo = "断网提示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26010F440A6790BB9009F94C /* Pods-断网提示.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-断网提示.release.xcconfig"; path = "Pods/Target Support Files/Pods-断网提示/Pods-断网提示.release.xcconfig"; sourceTree = "<group>"; };
+		56D178D7E81D9A965856039A /* Pods-断网提示.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-断网提示.debug.xcconfig"; path = "Pods/Target Support Files/Pods-断网提示/Pods-断网提示.debug.xcconfig"; sourceTree = "<group>"; };
+		6F5897FFC5BF745E0368ECEE /* libPods-断网提示.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-断网提示.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889C01C31E63B8A00009997A /* 断网提示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "断网提示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889C01C71E63B8A00009997A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		889C01C91E63B8A00009997A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		889C01CA1E63B8A00009997A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		889C01CC1E63B8A00009997A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		889C01CD1E63B8A00009997A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		889C01D21E63B8A00009997A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		889C01D51E63B8A00009997A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		889C01D71E63B8A00009997A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889C01DC1E63B8A00009997A /* 断网提示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "断网提示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889C01E01E63B8A00009997A /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		889C01E21E63B8A00009997A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889C01E71E63B8A10009997A /* 断网提示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "断网提示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889C01EB1E63B8A10009997A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		889C01ED1E63B8A10009997A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889C01FC1E63C4C30009997A /* ZNoDateTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNoDateTip.h; sourceTree = "<group>"; };
+		889C01FD1E63C4C30009997A /* ZNoDateTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNoDateTip.m; sourceTree = "<group>"; };
+		889C01FF1E63D4070009997A /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889C01C01E63B8A00009997A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A454430B74D92DA96F7772 /* libPods-断网提示.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01D91E63B8A00009997A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01E41E63B8A10009997A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9111167BAEB33BBC8552C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F5897FFC5BF745E0368ECEE /* libPods-断网提示.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F8F48D0CFE49380DC504F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56D178D7E81D9A965856039A /* Pods-断网提示.debug.xcconfig */,
+				26010F440A6790BB9009F94C /* Pods-断网提示.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		889C01BA1E63B8A00009997A = {
+			isa = PBXGroup;
+			children = (
+				889C01C51E63B8A00009997A /* 断网提示 */,
+				889C01DF1E63B8A00009997A /* 断网提示Tests */,
+				889C01EA1E63B8A10009997A /* 断网提示UITests */,
+				889C01C41E63B8A00009997A /* Products */,
+				58F8F48D0CFE49380DC504F4 /* Pods */,
+				4C9111167BAEB33BBC8552C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		889C01C41E63B8A00009997A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889C01C31E63B8A00009997A /* 断网提示.app */,
+				889C01DC1E63B8A00009997A /* 断网提示Tests.xctest */,
+				889C01E71E63B8A10009997A /* 断网提示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889C01C51E63B8A00009997A /* 断网提示 */ = {
+			isa = PBXGroup;
+			children = (
+				889C01FF1E63D4070009997A /* off.png */,
+				889C01C91E63B8A00009997A /* AppDelegate.h */,
+				889C01CA1E63B8A00009997A /* AppDelegate.m */,
+				889C01CC1E63B8A00009997A /* ViewController.h */,
+				889C01CD1E63B8A00009997A /* ViewController.m */,
+				889C01FC1E63C4C30009997A /* ZNoDateTip.h */,
+				889C01FD1E63C4C30009997A /* ZNoDateTip.m */,
+				889C01D21E63B8A00009997A /* Assets.xcassets */,
+				889C01D41E63B8A00009997A /* LaunchScreen.storyboard */,
+				889C01D71E63B8A00009997A /* Info.plist */,
+				889C01C61E63B8A00009997A /* Supporting Files */,
+			);
+			path = "断网提示";
+			sourceTree = "<group>";
+		};
+		889C01C61E63B8A00009997A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889C01C71E63B8A00009997A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889C01DF1E63B8A00009997A /* 断网提示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				889C01E01E63B8A00009997A /* ____Tests.m */,
+				889C01E21E63B8A00009997A /* Info.plist */,
+			);
+			path = "断网提示Tests";
+			sourceTree = "<group>";
+		};
+		889C01EA1E63B8A10009997A /* 断网提示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				889C01EB1E63B8A10009997A /* ____UITests.m */,
+				889C01ED1E63B8A10009997A /* Info.plist */,
+			);
+			path = "断网提示UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889C01C21E63B8A00009997A /* 断网提示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889C01F01E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示" */;
+			buildPhases = (
+				53503F48151EF1423CCBB7F4 /* [CP] Check Pods Manifest.lock */,
+				889C01BF1E63B8A00009997A /* Sources */,
+				889C01C01E63B8A00009997A /* Frameworks */,
+				889C01C11E63B8A00009997A /* Resources */,
+				722C24D22584C515F25DB35D /* [CP] Embed Pods Frameworks */,
+				09F236AFCE3FE2486702C1A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "断网提示";
+			productName = "断网提示";
+			productReference = 889C01C31E63B8A00009997A /* 断网提示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889C01DB1E63B8A00009997A /* 断网提示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889C01F31E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示Tests" */;
+			buildPhases = (
+				889C01D81E63B8A00009997A /* Sources */,
+				889C01D91E63B8A00009997A /* Frameworks */,
+				889C01DA1E63B8A00009997A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889C01DE1E63B8A00009997A /* PBXTargetDependency */,
+			);
+			name = "断网提示Tests";
+			productName = "断网提示Tests";
+			productReference = 889C01DC1E63B8A00009997A /* 断网提示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		889C01E61E63B8A10009997A /* 断网提示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889C01F61E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示UITests" */;
+			buildPhases = (
+				889C01E31E63B8A10009997A /* Sources */,
+				889C01E41E63B8A10009997A /* Frameworks */,
+				889C01E51E63B8A10009997A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889C01E91E63B8A10009997A /* PBXTargetDependency */,
+			);
+			name = "断网提示UITests";
+			productName = "断网提示UITests";
+			productReference = 889C01E71E63B8A10009997A /* 断网提示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889C01BB1E63B8A00009997A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = imac;
+				TargetAttributes = {
+					889C01C21E63B8A00009997A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WYY86V8238;
+						ProvisioningStyle = Automatic;
+					};
+					889C01DB1E63B8A00009997A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 889C01C21E63B8A00009997A;
+					};
+					889C01E61E63B8A10009997A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 889C01C21E63B8A00009997A;
+					};
+				};
+			};
+			buildConfigurationList = 889C01BE1E63B8A00009997A /* Build configuration list for PBXProject "断网提示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889C01BA1E63B8A00009997A;
+			productRefGroup = 889C01C41E63B8A00009997A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889C01C21E63B8A00009997A /* 断网提示 */,
+				889C01DB1E63B8A00009997A /* 断网提示Tests */,
+				889C01E61E63B8A10009997A /* 断网提示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889C01C11E63B8A00009997A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889C02001E63D4070009997A /* off.png in Resources */,
+				889C01D61E63B8A00009997A /* LaunchScreen.storyboard in Resources */,
+				889C01D31E63B8A00009997A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01DA1E63B8A00009997A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01E51E63B8A10009997A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F236AFCE3FE2486702C1A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-断网提示/Pods-断网提示-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53503F48151EF1423CCBB7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		722C24D22584C515F25DB35D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-断网提示/Pods-断网提示-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889C01BF1E63B8A00009997A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889C01CE1E63B8A00009997A /* ViewController.m in Sources */,
+				889C01FE1E63C4C30009997A /* ZNoDateTip.m in Sources */,
+				889C01CB1E63B8A00009997A /* AppDelegate.m in Sources */,
+				889C01C81E63B8A00009997A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01D81E63B8A00009997A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889C01E11E63B8A00009997A /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889C01E31E63B8A10009997A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889C01EC1E63B8A10009997A /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889C01DE1E63B8A00009997A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889C01C21E63B8A00009997A /* 断网提示 */;
+			targetProxy = 889C01DD1E63B8A00009997A /* PBXContainerItemProxy */;
+		};
+		889C01E91E63B8A10009997A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889C01C21E63B8A00009997A /* 断网提示 */;
+			targetProxy = 889C01E81E63B8A10009997A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		889C01D41E63B8A00009997A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889C01D51E63B8A00009997A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889C01EE1E63B8A10009997A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889C01EF1E63B8A10009997A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889C01F11E63B8A10009997A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D178D7E81D9A965856039A /* Pods-断网提示.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYY86V8238;
+				INFOPLIST_FILE = "断网提示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		889C01F21E63B8A10009997A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26010F440A6790BB9009F94C /* Pods-断网提示.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYY86V8238;
+				INFOPLIST_FILE = "断网提示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		889C01F41E63B8A10009997A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "断网提示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/断网提示.app/断网提示";
+			};
+			name = Debug;
+		};
+		889C01F51E63B8A10009997A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "断网提示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/断网提示.app/断网提示";
+			};
+			name = Release;
+		};
+		889C01F71E63B8A10009997A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "断网提示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "断网提示";
+			};
+			name = Debug;
+		};
+		889C01F81E63B8A10009997A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "断网提示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "断网提示";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889C01BE1E63B8A00009997A /* Build configuration list for PBXProject "断网提示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889C01EE1E63B8A10009997A /* Debug */,
+				889C01EF1E63B8A10009997A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889C01F01E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889C01F11E63B8A10009997A /* Debug */,
+				889C01F21E63B8A10009997A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889C01F31E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889C01F41E63B8A10009997A /* Debug */,
+				889C01F51E63B8A10009997A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889C01F61E63B8A10009997A /* Build configuration list for PBXNativeTarget "断网提示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889C01F71E63B8A10009997A /* Debug */,
+				889C01F81E63B8A10009997A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889C01BB1E63B8A00009997A /* Project object */;
+}
